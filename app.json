@@ -1,0 +1,17 @@
+{
+  "name": "BitHostIn",
+  "description": "Matrix produces a virtual office for remote teams. In this project, you can run a virtual office to simulate the physical environment",
+  "repository": "https://github.com/ramkrishna70/matrix",
+  "keywords": ["online workspace", "virtual office", "remote teams"],
+  "stack": "container", 
+  "env": {
+    "GOOGLE_CREDENTIAL": {
+      "description": "Google Application Credential",
+      "value": "1045337675756-1k17mkmbtlr59jdacjoh94dtqb8p0eru.apps.googleusercontent.com"
+    },
+    "ENFORCE_SSL": {
+      "description": "If you running in HTTPS this variable forces redirect to HTTPS when user access with HTTP",
+      "value": "true"
+    }
+  }
+}
